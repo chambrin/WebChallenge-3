@@ -1,0 +1,171 @@
+.heroBackground {
+  background: linear-gradient(180deg, #FAE3B6 63.02%, rgba(250, 227, 182, 0) 100%);
+margin: -10px
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+ .NavLink a {
+   margin: 0 15px 0 15px;
+ }
+}
+
+.BtnLogin {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 36px;
+  padding: 0 10px 0 10px;
+  box-sizing: border-box;
+  box-shadow: inset 4px 4px 4px #F2D09B;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 8px;
+  background-color: #FAE3B6;
+}
+.BtnSign {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 36px;
+  padding: 0 10px 0 10px;
+  background: linear-gradient(77.49deg, #FDBB57 0%, rgba(251, 251, 251, 0) 100%);
+  box-shadow: inset 4px 4px 4px #F2D09B;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+}
+.HeroTitle {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 75px;
+}
+.ShopBtn {
+  font-weight: 600;
+  background: #000000;
+  border-radius: 10px;
+  color: #fff;
+  padding: 20px 60px 20px 60px;
+}
+.hero {
+  margin-top: 80px;
+}
+.DividerHero {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+.Divider {
+  width: 100%;
+  height: 120px;
+}
+
+
+//Newcollection section
+.FlexCollection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CollectionNewItems {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  h3{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+
+  }
+  p{
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+  }
+}
+
+.CollectionNewCard {
+  display: flex;
+  justify-content: center;
+  img {
+    margin: 50px;
+  }
+}
+
+//New collection
+.best {
+  margin-top: 180px;
+}
+.bestText {
+  font-family: Frank Ruhl Libre, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 83px;
+}
+.BestLeft {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+.CollBlock {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: linear-gradient(83.43deg, #CD8922 0.44%, rgba(255, 184, 79, 0.45) 95.53%);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), inset 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  text-align: center;
+  h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  p {
+    margin-top: -10px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+  }
+}
+.collcard {
+border-right: solid 1px ;
+  padding-right: 120px;
+}
+//endchall
+.footer {
+  background: linear-gradient(180deg, #CFA485 68.72%, rgba(199, 155, 123, 0) 100%);
+}
+.FooterText {
+  h3 {
+    font-family: Frank Ruhl Libre,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    color: #fff;
+  }
+  p {
+    font-family: Frank Ruhl Libre,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+  }
+}
+.FooterCard {
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+}
+.footer {
+  margin-top: 80px;
+}
